@@ -4,25 +4,21 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  sphinx,
+  asp_net,
+  azure_devops,
+  innomatics,
+  celebal,
+  airbnb,
+  memories,
+  newsapp,
 } from "../assets";
 
 export const navLinks = [
@@ -73,20 +69,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -97,10 +81,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -109,62 +89,44 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "sphinx",
+    icon: sphinx,
+  },
+  {
+    name: "ASP Net",
+    icon: asp_net,
+  },
+  {
+    name: "Azure Devops",
+    icon: azure_devops,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "MERN Developer",
+    company_name: "Innomatics Research Labs",
+    icon: innomatics,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "November 2021 - February 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using MERN technology and other related technologies.",
+      "Developed a clone of the Airbnb web app, where users can find their accommodation and also property dealers rent out their spaces after the successful authentication.",
+      "This app uses two types of authentications, one is through email and password and the other is using Google authentication.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Sphinx Developer",
+    company_name: "Celebal Technologies",
+    icon: celebal,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using Sphinx Framework and other related technologies.",
+      "Collaborating with cross-functional teams including product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing a project called Celebal Gyan Platform based on Databricks department.",
     ],
   },
 ];
@@ -172,35 +134,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Rahul proved me wrong.",
+    name: "Kumar Shashank",
+    designation: "Software Developer",
+    company: "CloudKaptaan",
+    image: "https://avatars.githubusercontent.com/u/34642119?v=4",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Rahul does.",
+    name: "Shivansh Jaitly",
+    designation: "Advanced Application Engineering Analyst",
+    company: "Accenture",
+    image: "https://avatars.githubusercontent.com/u/61774851?v=4",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Rahul optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Rahul Raj",
+    designation: "Developer",
+    company: "XenonStack",
+    image: "https://avatars.githubusercontent.com/u/73031072?v=4",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AirBnb Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, and book space from various providers, providing a convenient and efficient for accomodation needs. Property dealers can rent out their spaces after the successful authentication.",
     tags: [
       {
         name: "react",
@@ -211,54 +173,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "node",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: airbnb,
+    source_code_link: "https://rahul-airbnb-clone.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Memories",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to create their memories with timestamps and tags. They can update, delete after successfull authentication. They can also search, like and comment on the posts. Posts will suggested if users open any memories description.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "materialui",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: memories,
+    source_code_link: "https://rahul-memories.netlify.app/posts",
   },
   {
-    name: "Trip Guide",
+    name: "News App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that enables users to see the news from different sections like sports, technology, health, IT, science etc. It uses NEWS API to fetch the latest news. There is also a Navbar for getting desired section's result",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "api",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: newsapp,
+    source_code_link: "https://github.com/rahulsrivastava1/News-App",
   },
 ];
 
