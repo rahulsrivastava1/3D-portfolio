@@ -13,12 +13,13 @@ import {
   figma,
   sphinx,
   asp_net,
-  azure_devops,
   innomatics,
   celebal,
   airbnb,
   memories,
   newsapp,
+  asp_net_p,
+  azure_devops_p,
 } from "../assets";
 
 export const navLinks = [
@@ -98,7 +99,54 @@ const technologies = [
   },
   {
     name: "Azure Devops",
-    icon: azure_devops,
+    icon: azure_devops_p,
+  },
+];
+
+const technologies_phone = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "sphinx",
+    icon: sphinx,
+  },
+  {
+    name: "ASP Net",
+    icon: asp_net_p,
+  },
+  {
+    name: "Azure Devops",
+    icon: azure_devops_p,
   },
 ];
 
@@ -224,4 +272,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  technologies_phone,
+  experiences,
+  testimonials,
+  projects,
+};

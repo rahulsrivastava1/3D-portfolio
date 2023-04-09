@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import phone from "./phone.jpg";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -17,7 +18,8 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import sphinx from "./tech/sphinx.png";
 import asp_net from "./tech/asp_net.png";
-import azure_devops from "./tech/azure_devops.png";
+import asp_net_p from "./tech/asp_net_p.png";
+import azure_devops_p from "./tech/azure_devops_p.png";
 
 import innomatics from "./company/innomatics.png";
 import celebal from "./company/celebal.png";
@@ -45,10 +47,12 @@ export {
   reactjs,
   sphinx,
   asp_net,
-  azure_devops,
+  asp_net_p,
+  azure_devops_p,
   innomatics,
   celebal,
   airbnb,
   memories,
   newsapp,
+  phone,
 };
