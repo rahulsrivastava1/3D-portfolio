@@ -17,9 +17,8 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import sphinx from "./tech/sphinx.png";
-import asp_net from "./tech/asp_net.png";
-import asp_net_p from "./tech/asp_net_p.png";
 import azure_devops_p from "./tech/azure_devops_p.png";
+import mern from "./tech/mern.png";
 
 import innomatics from "./company/innomatics.png";
 import celebal from "./company/celebal.png";
@@ -46,8 +45,6 @@ export {
   nodejs,
   reactjs,
   sphinx,
-  asp_net,
-  asp_net_p,
   azure_devops_p,
   innomatics,
   celebal,
@@ -55,4 +52,5 @@ export {
   memories,
   newsapp,
   phone,
+  mern,
 };

@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   html,
@@ -12,13 +11,12 @@ import {
   git,
   figma,
   sphinx,
-  asp_net,
   innomatics,
   celebal,
   airbnb,
   memories,
   newsapp,
-  asp_net_p,
+  mern,
   azure_devops_p,
 } from "../assets";
 
@@ -32,6 +30,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "Blogs",
+    title: "Blogs",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -39,19 +41,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer (React)",
     icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Developer (Node)",
     icon: backend,
   },
   {
-    title: "Dot Net Developer",
-    icon: creator,
-  },
-  {
-    title: "Sphinx Developer",
+    title: "Sphinx Developer (rtd)",
     icon: mobile,
   },
 ];
@@ -92,10 +90,6 @@ const technologies = [
   {
     name: "sphinx",
     icon: sphinx,
-  },
-  {
-    name: "ASP Net",
-    icon: asp_net,
   },
   {
     name: "Azure Devops",
@@ -141,10 +135,6 @@ const technologies_phone = [
     icon: sphinx,
   },
   {
-    name: "ASP Net",
-    icon: asp_net_p,
-  },
-  {
     name: "Azure Devops",
     icon: azure_devops_p,
   },
@@ -169,12 +159,26 @@ const experiences = [
     company_name: "Celebal Technologies",
     icon: celebal,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using Sphinx Framework and other related technologies.",
+      "Developing and maintaining web applications using rtd theme of Sphinx Framework and other related technologies.",
       "Collaborating with cross-functional teams including product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Developing a project called Celebal Gyan Platform based on Databricks department.",
+    ],
+  },
+  {
+    title: "MERN Developer",
+    company_name: "Celebal Technologies",
+    icon: celebal,
+    iconBg: "#E6DEDD",
+    date: "July 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React, Node and other related technologies.",
+      "Collaborating with cross-functional teams including product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing a project called CoE Landing Zone, and Parikshak based on Databricks department.",
+      "Developing a project called CoE Report using D3 library which will show all graphs such as piechart, bargraph etc. based on backend data.",
     ],
   },
 ];
@@ -272,6 +276,32 @@ const projects = [
   },
 ];
 
+const blogs = [
+  {
+    title:
+      "Simple and Concise Git Commands That Every Software Developer Should know",
+    date: "23rd September 2021",
+    image: git,
+    description:
+      "It is a simple article based on Git Commands. We have git commands that become very crucial that one should.",
+    link: "https://www.geeksforgeeks.org/simple-and-concise-git-commands-that-every-software-developer-should-know/",
+  },
+  {
+    title: "Deploying MERN Stack Application",
+    date: "26th February 2022",
+    image: mern,
+    description: "Netlify for Frontend and Heroku for Backend.",
+    link: "https://medium.com/@srivastavar433/deploying-mern-stack-application-70539a7ac397",
+  },
+  {
+    title: "Deploying React Application on GitHub",
+    date: "19th January 2022",
+    image: reactjs,
+    description: "GitHub Pages for React App Deployment.",
+    link: "https://medium.com/@srivastavar433/deploying-react-app-on-github-ed7cb3993f41",
+  },
+];
+
 export {
   services,
   technologies,
@@ -279,4 +309,5 @@ export {
   experiences,
   testimonials,
   projects,
+  blogs,
 };
