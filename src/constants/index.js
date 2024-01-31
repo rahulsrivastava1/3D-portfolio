@@ -172,7 +172,7 @@ const experiences = [
     company_name: "Celebal Technologies",
     icon: celebal,
     iconBg: "#E6DEDD",
-    date: "July 2023 - Present",
+    date: "July 2023 - Dec 2023",
     points: [
       "Developing and maintaining web applications using React, Node and other related technologies.",
       "Collaborating with cross-functional teams including product managers, and other developers to create high-quality products.",
